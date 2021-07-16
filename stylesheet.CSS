@@ -1,0 +1,43 @@
+
+
+
+header{
+    height: 100px;
+}
+main{
+    flex: 1;
+}
+.accordion{
+ width: 500px;
+ margin: auto;
+ text-align: center;
+ display: block;
+
+}
+.accordion-trigger{
+    margin: 0;
+    padding: 10px;
+    display: block; 
+    background: #333;
+    border-top: 1px solid #fff;
+    color: #FFF;
+    border-top: 1px solid #fff;
+    margin-bottom: 20px;
+
+}
+.accordion-contents{
+    margin: 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+}
+h2{
+    position: relative;
+    padding: 1.5rem;
+    border: 2px solid #000;
+    text-align: center;
+    background: #fff;
+}
+footer{
+    height: 100px;
+}
